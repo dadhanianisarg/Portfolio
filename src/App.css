@@ -1076,6 +1076,13 @@ section::before {
     transform: translateX(5px);
 }
 
+.project-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+
 /* Contact Section */
 .contact-content {
     display: grid;

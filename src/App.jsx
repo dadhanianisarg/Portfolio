@@ -302,74 +302,164 @@ function App() {
           <div className="projects-grid">
             <div className="project-card">
               <div className="project-header">
-                <h3>TeamSync</h3>
-                <span className="project-type">Project Management System</span>
-              </div>
-              <p className="project-description">
-                MERN-based multi-tenant project management platform with
-                role-based access control, secure authentication, and analytics
-                APIs. Built for scalability and team collaboration.
-              </p>
-              <div className="project-tech">
-                <span className="tech-badge">MongoDB</span>
-                <span className="tech-badge">Express</span>
-                <span className="tech-badge">React</span>
-                <span className="tech-badge">Node.js</span>
-              </div>
-              <a
-                href="https://github.com/dadhanianisarg/Team-Management-Portal"
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                >
-                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                </svg>
-                View on GitHub
-              </a>
-            </div>
-
-            <div className="project-card">
-              <div className="project-header">
                 <h3>CourseCraft</h3>
                 <span className="project-type">Online Learning Platform</span>
               </div>
               <p className="project-description">
-                Full-stack ed-tech platform with student/instructor roles,
-                secure backend, payment integration, and cloud media storage.
-                Designed for seamless learning experiences.
+                Full-stack Ed-Tech platform supporting student and instructor
+                roles, enabling course creation, enrollment, content
+                consumption, and ratings. Features JWT authentication,
+                OTP-based email verification, Razorpay payments, and
+                Cloudinary media management.
               </p>
               <div className="project-tech">
                 <span className="tech-badge">MongoDB</span>
-                <span className="tech-badge">Express</span>
-                <span className="tech-badge">React</span>
+                <span className="tech-badge">Express.js</span>
+                <span className="tech-badge">React.js</span>
                 <span className="tech-badge">Node.js</span>
               </div>
-              <a
-                href="https://github.com/dadhanianisarg/CourseCraft"
-                target="_blank"
-                rel="noreferrer"
-                className="project-link"
-              >
-                <svg
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2"
+              <div className="project-links">
+                <a
+                  href="https://github.com/dadhanianisarg/CourseCraft"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
                 >
-                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
-                </svg>
-                View on GitHub
-              </a>
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+                <a
+                  href="https://course-craft-frontend-xi.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>Corporate CI/CD DevOps Pipeline</h3>
+                <span className="project-type">DevOps & Infrastructure</span>
+              </div>
+              <p className="project-description">
+                End-to-end enterprise CI/CD pipeline using Jenkins Declarative
+                Pipeline with SonarQube quality checks, Trivy vulnerability
+                scanning, artifact publishing to Nexus, Docker image builds,
+                and Kubernetes deployment with Prometheus and Grafana
+                monitoring.
+              </p>
+              <div className="project-tech">
+                <span className="tech-badge">Jenkins</span>
+                <span className="tech-badge">Docker</span>
+                <span className="tech-badge">Kubernetes</span>
+                <span className="tech-badge">SonarQube</span>
+                <span className="tech-badge">Prometheus</span>
+                <span className="tech-badge">Grafana</span>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/dadhanianisarg"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+              </div>
+            </div>
+
+            <div className="project-card">
+              <div className="project-header">
+                <h3>Coordina</h3>
+                <span className="project-type">Project Management System</span>
+              </div>
+              <p className="project-description">
+                Multi-tenant project management platform with Google OAuth,
+                role-based access control (Owner, Admin, Member), workspace
+                isolation, member invitations, and RESTful APIs for projects,
+                epics, and tasks with advanced filtering and MongoDB
+                transactions.
+              </p>
+              <div className="project-tech">
+                <span className="tech-badge">MongoDB</span>
+                <span className="tech-badge">Express.js</span>
+                <span className="tech-badge">React.js</span>
+                <span className="tech-badge">Node.js</span>
+              </div>
+              <div className="project-links">
+                <a
+                  href="https://github.com/dadhanianisarg/Team-Management-Portal"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22" />
+                  </svg>
+                  GitHub
+                </a>
+                <a
+                  href="https://team-management-portal-three.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="project-link"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                  >
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+                    <polyline points="15 3 21 3 21 9" />
+                    <line x1="10" y1="14" x2="21" y2="3" />
+                  </svg>
+                  Live Demo
+                </a>
+              </div>
             </div>
           </div>
         </div>
