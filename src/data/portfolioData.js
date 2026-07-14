@@ -56,12 +56,7 @@ export const portfolioData = {
     { name: "Postman", category: "DevOps & Cloud", level: "Experienced" },
     { name: "AWS", category: "DevOps & Cloud", level: "Comfortable" },
     { name: "Docker", category: "DevOps & Cloud", level: "Experienced" },
-    { name: "Kubernetes", category: "DevOps & Cloud", level: "Comfortable" },
-    
-    { name: "Vector Embeddings", category: "AI & Machine Learning", level: "Experienced" },
-    { name: "Semantic Search", category: "AI & Machine Learning", level: "Experienced" },
-    { name: "RAG Pipelines", category: "AI & Machine Learning", level: "Experienced" },
-    { name: "Multimodal AI", category: "AI & Machine Learning", level: "Comfortable" }
+    { name: "Kubernetes", category: "DevOps & Cloud", level: "Comfortable" }
   ],
 
   experience: [
