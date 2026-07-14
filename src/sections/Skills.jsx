@@ -4,11 +4,6 @@ import { Brain, Server, Layout, HardDrive, Cpu } from 'lucide-react';
 
 const skillCategories = [
   {
-    title: "AI & Machine Learning",
-    icon: <Brain className="w-5 h-5 text-purple-400" />,
-    skills: ["Vector Embeddings", "Semantic Search", "Retrieval-Augmented Generation (RAG)", "LangChain", "PyTorch"]
-  },
-  {
     title: "Backend & Systems",
     icon: <Server className="w-5 h-5 text-blue-400" />,
     skills: ["Node.js", "Express.js", "Redis", "SQL / PostgreSQL", "MongoDB", "System Design"]
@@ -40,7 +35,7 @@ export const Skills = () => {
       <div className="mb-14 text-center">
         <span className="text-xs uppercase tracking-widest text-cyan-400 font-mono">diagnostics.skills: Active</span>
         <h2 className="text-3xl md:text-4xl font-bold text-white tracking-tight mt-1">Technical Matrix</h2>
-        <p className="text-sm text-gray-400 max-w-md mx-auto mt-2">Classified skill registers detailing programming, operations, and AI competencies.</p>
+        <p className="text-sm text-gray-400 max-w-md mx-auto mt-2">Classified skill registers detailing programming, operations, and system architectures.</p>
       </div>
 
       {/* Grid structure */}
